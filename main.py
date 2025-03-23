@@ -1,3 +1,7 @@
+from stats import word_count
+from stats import char_counts
+from stats import sort_by_count
+import sys
 
 def get_book_text(path):
     with open(path) as book:
